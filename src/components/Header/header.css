@@ -1,0 +1,40 @@
+header{
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.main__img{
+    width: 70rem;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+/*-------------------------- MEDIUM DEVICES ----------------------*/
+@media screen and (max-width: 1024px){
+    .container{
+        height: 68vh;
+    }
+    .main__img{
+        width: 45rem;
+    }
+}
+
+/*-------------------------- SMALL DEVICES ----------------------*/
+@media screen and (max-width: 600px){
+    .container{
+        height: 78vh;
+    }
+    .main__img{
+        width: 35rem;
+    }
+}
