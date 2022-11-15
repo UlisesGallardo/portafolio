@@ -1,6 +1,6 @@
 {
   "name": "portafolio-react",
-  "homepage": "vercel.com/ulisesgallardo/portafolio",
+  "homepage": "https://portafolio-ulisesgallardo.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
